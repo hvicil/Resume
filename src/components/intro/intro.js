@@ -14,7 +14,7 @@ const Intro = () => {
             <div className="row">
               <div className="col-12 text-center">
                 <div className="typed-strings">
-                  <p>I'm Huseyin Vicil</p>
+                  <p>I'm Hüseyin Vicil</p>
                   <p>I'm a Freelancer.</p>
                   <p>I'm a Developer.</p>
                   <p>I'm a Designer.</p>
