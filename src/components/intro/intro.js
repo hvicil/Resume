@@ -23,11 +23,11 @@ const Intro = () => {
                 <h1 className="text-white text-18">
                   <TypeAnimation
                     sequence={[
-                      "I'm Simone Olivia",
+                      "I'm Huseyin Vicil",
                       1000, // Waits 1s
                       "I'm a Freelancer.",
                       1000, // Waits 1s
-                      "I'm a Photographer.",
+                      "I'm a Developer.",
                       1000, // Waits 1s
                       "I'm a Designer.",
                       () => {
