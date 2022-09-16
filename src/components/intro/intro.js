@@ -7,7 +7,7 @@ const Intro = () => {
         <div className="hero-mask opacity-8 bg-dark"></div>
         <div
           className="hero-bg parallax"
-          style={{ backgroundImage: "url('images/intro-bg.jpg.jfif')" }}
+          style={{ backgroundImage: "url('images/intro-bg.jpg')" }}
         ></div>
         <div className="hero-content section d-flex min-vh-100">
           <div className="container my-auto">
@@ -44,9 +44,7 @@ const Intro = () => {
                 <h2 className="text-16 fw-600 text-white mb-2 mb-md-3">
                   <span className="typed"></span>
                 </h2>
-                <p className="text-5 text-light mb-4">
-                  based in Los Angeles, California.
-                </p>
+                <p className="text-5 text-light mb-4">based in Germany.</p>
                 <a
                   href="#contact"
                   className="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2"

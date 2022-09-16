@@ -38,13 +38,9 @@ const ContactForm = () => {
         </div>
 
         <p className="text-center mt-4 mb-0">
-          <button
-            id="submit-btn"
-            className="btn btn-primary rounded-pill d-inline-flex"
-            type="submit"
-          >
+          <a href="#" className="btn btn-primary rounded-pill">
             Send Message
-          </button>
+          </a>
         </p>
       </form>
     </>
