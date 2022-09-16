@@ -23,7 +23,7 @@ const Intro = () => {
                 <h1 className="text-white text-18">
                   <TypeAnimation
                     sequence={[
-                      "I'm Huseyin Vicil",
+                      "I'm Hüseyin Vicil",
                       2000, // Waits 1s
                       "I'm a Freelancer.",
                       2000, // Waits 1s
