@@ -24,11 +24,11 @@ const Intro = () => {
                   <TypeAnimation
                     sequence={[
                       "I'm Huseyin Vicil",
-                      1000, // Waits 1s
+                      2000, // Waits 1s
                       "I'm a Freelancer.",
-                      1000, // Waits 1s
+                      2000, // Waits 1s
                       "I'm a Developer.",
-                      1000, // Waits 1s
+                      2000, // Waits 1s
                       "I'm a Designer.",
                       () => {
                         console.log("Done typing!"); // Place optional callbacks anywhere in the array

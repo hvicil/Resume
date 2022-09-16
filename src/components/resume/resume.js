@@ -58,14 +58,14 @@ const Resume = () => {
         <h2 className="text-6 fw-600 mt-4 mb-4">My Skills</h2>
         <div className="row gx-5">
           <div className="col-md-6">
-            <Skill name="Web Design" value="65" />
-            <Skill name="HTML/CSS" value="95" />
-            <Skill name="JavaScript" value="80" />
+            <Skill name="Web Design" value="90" />
+            <Skill name="HTML/CSS" value="90" />
+            <Skill name="JavaScript" value="90" />
           </div>
           <div className="col-md-6">
-            <Skill name="React JS" value="70" />
-            <Skill name="Angular Js" value="60" />
-            <Skill name="Bootstrap" value="99" />
+            <Skill name="React JS" value="90" />
+            <Skill name="Webpack" value="70" />
+            <Skill name="Bootstrap" value="90" />
           </div>
         </div>
         <div className="text-center mt-5">

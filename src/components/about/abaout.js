@@ -9,7 +9,7 @@ const About = () => {
         <div className="row gy-5">
           <div className="col-lg-7 col-xl-8 text-center text-lg-start">
             <h2 className="text-7 fw-600 mb-3">
-              I'm <span className="text-primary">Simone Olivia,</span> a Web
+              I'm <span className="text-primary">Hüseyin Vicil,</span> a Web
               Developer
             </h2>
             <p>
@@ -28,17 +28,17 @@ const About = () => {
             <div className="ps-lg-4">
               <ul className="list-style-2">
                 <li className="">
-                  <span className="fw-600 me-2">Name:</span>Simone Olivia
+                  <span className="fw-600 me-2">Name:</span>Hüseyin Vicil
                 </li>
                 <li className="">
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
+                  <a href="mailto:email@mail.com">email@mail.com</a>
                 </li>
                 <li className="">
-                  <span className="fw-600 me-2">Age:</span>28
+                  <span className="fw-600 me-2">Age:</span>35
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles, California
+                  <span className="fw-600 me-2">From:</span>Germany
                 </li>
               </ul>
               <a href="#" className="btn btn-primary rounded-pill">
@@ -68,81 +68,3 @@ const About = () => {
   );
 };
 export default About;
-
-/*
-import React from "react";
-import SectionTitle from "../common/section-title/section-title";
-import Counter from "./counter";
-
-const Abaout = () => {
-  return (
-    <section id="about" className="section">
-      <div className="container px-lg-5">
-        <SectionTitle fronText="Know Me More" backText="About Me " />
-
-        <div className="row gy-5">
-          <div className="col-lg-7 col-xl-8 text-center text-lg-start">
-            <h2 className="text-7 fw-600 mb-3">
-              I'm <span className="text-primary">Hüseyin Vicil,</span> a Web
-              Developer
-            </h2>
-            <p>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
-            </p>
-            <p>
-              Delivering work within time and budget which meets client's
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
-            </p>
-          </div>
-          <div className="col-lg-5 col-xl-4">
-            <div className="ps-lg-4">
-              <ul className="list-style-2">
-                <li className="">
-                  <span className="fw-600 me-2">Name:</span>Hüseyin Vicil
-                </li>
-                <li className="">
-                  <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@huseyin.com</a>
-                </li>
-                <li className="">
-                  <span className="fw-600 me-2">Age:</span>56
-                </li>
-                <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles,
-                  California
-                </li>
-              </ul>
-              <a href="#" className="btn btn-primary rounded-pill">
-                Download CV
-              </a>{" "}
-            </div>
-          </div>
-        </div>
-        <div className="brands-grid separator-border mt-5">
-          <div className="row">
-            <div className="col-6 col-md-3">
-              <Counter name="Years Experiance" value="10" sign="+" />
-            </div>
-            <div className="col-6 col-md-3">
-              <Counter name="Happy Clients" value="250" sign="+" />
-            </div>
-          </div>
-          <div className="col-6 col-md-3">
-            <Counter name="Projects Done" value="650" sign="+" />
-          </div>
-          <div className="col-6 col-md-3">
-            <Counter name="Get Awards" value="38" sign="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Abaout;
-
-*/

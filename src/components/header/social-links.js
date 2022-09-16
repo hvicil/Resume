@@ -7,7 +7,7 @@ const SocialLinks = () => {
         <a
           data-bs-toggle="tooltip"
           title="Facebook"
-          href="../../../index.htm"
+          href="#"
           target="_blank"
         >
           <i className="fab fa-facebook-f"></i>
@@ -17,7 +17,7 @@ const SocialLinks = () => {
         <a
           data-bs-toggle="tooltip"
           title="Twitter"
-          href="../../../index-1.htm"
+          href="#"
           target="_blank"
         >
           <i className="fab fa-twitter"></i>
@@ -28,7 +28,7 @@ const SocialLinks = () => {
           data-bs-toggle="tooltip"
           title="Dribbble"
           data-bs-placement="top"
-          href="../../../index-2.htm"
+          href="#"
           target="_blank"
         >
           <i className="fab fa-dribbble"></i>
@@ -39,7 +39,7 @@ const SocialLinks = () => {
           data-bs-toggle="tooltip"
           title="GitHub"
           data-bs-placement="top"
-          href="../../../index-3.htm"
+          href="#"
           target="_blank"
         >
           <i className="fab fa-github"></i>
