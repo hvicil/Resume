@@ -12,8 +12,8 @@ import Services from "./components/service/services";
 const App = () => {
   return (
     <>
-      <Header />;
-      <Intro />;
+      <Header />
+      <Intro />
       <Abaout />
       <Services />
       <Resume />
