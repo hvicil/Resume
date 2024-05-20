@@ -1,7 +1,27 @@
 import React from "react";
 import SectionTitle from "../common/section-title/section-title";
 import Counter from "./counter";
+
 const About = () => {
+  const calculateDynamicValue = () => {
+    const startValue = 98; // Başlangıç değeri (%98)
+    const endValue = 100; // Son değer (%100)
+    const startYear = 2024; // Başlangıç yılı
+    const currentYear = new Date().getFullYear(); // Mevcut yıl
+    const totalYears = 80; // Toplam yıl
+
+    const valueIncrease = endValue - startValue;
+    const yearProgress = currentYear - startYear;
+
+    if (yearProgress >= totalYears) {
+      return endValue;
+    }
+
+    const currentValue =
+      startValue + (valueIncrease * yearProgress) / totalYears;
+    return currentValue.toFixed(1); // Virgülden sonra 2 basamak
+  };
+
   return (
     <section id="about" className="section">
       <div className="container px-lg-5">
@@ -15,12 +35,12 @@ const About = () => {
             <p>
               I help you build brand for your business at an affordable price.
               Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
+              working with our dedicated team. When an unknown printer took a
               galley of type and scrambled it to make a type specimen book.
             </p>
             <p>
               Delivering work within time and budget which meets client`s
-              requirements is our moto. Lorem Ipsum has been the industry's
+              requirements is our motto. Lorem Ipsum has been the industry's
               standard dummy text ever when an unknown printer took a galley.
             </p>
           </div>
@@ -43,14 +63,14 @@ const About = () => {
               </ul>
               <a href="#" className="btn btn-primary rounded-pill">
                 Download CV
-              </a>{" "}
+              </a>
             </div>
           </div>
         </div>
         <div className="brands-grid separator-border mt-5">
           <div className="row">
             <div className="col-6 col-md-3">
-              <Counter name="Years Experiance" value="10" sign="+" />
+              <Counter name="Years Experience" value="10" sign="+" />
             </div>
             <div className="col-6 col-md-3">
               <Counter name="Happy Clients" value="250" sign="+" />
@@ -59,7 +79,11 @@ const About = () => {
               <Counter name="Projects Done" value="650" sign="+" />
             </div>
             <div className="col-6 col-md-3">
-              <Counter name="Get Awards" value="20" sign="" />
+              <Counter
+                name="My Love"
+                value={calculateDynamicValue()}
+                sign="%"
+              />
             </div>
           </div>
         </div>
@@ -67,4 +91,5 @@ const About = () => {
     </section>
   );
 };
+
 export default About;
