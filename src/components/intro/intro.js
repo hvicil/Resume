@@ -16,25 +16,22 @@ const Intro = () => {
             <div className="row">
               <div className="col-12 text-center">
                 <div className="typed-strings">
-                  <p>Canim Karicim</p>
-                  <p>Seni Cok Seviyorum</p>
-                  <p>Sakin ne kadar diye sorma</p>
-                  <p>Sorarsan söyleyemem</p>
+                  <p>I'm Hüseyin Vicil</p>
+                  <p>I'm a Freelancer.</p>
+                  <p>I'm a Developer.</p>
+                  <p>I'm a Designer.</p>
                 </div>
                 <p className="text-7 fw-500 text-white mb-2 mb-md-3">Welcome</p>
                 <h1 className="text-white text-18">
                   <TypeAnimation
                     sequence={[
-                      "Canim Karicim",
+                      "I'm Hüseyin Vicil",
                       2000, // Waits 1s
-                      "Seni Cok Seviyorum",
+                      "I'm a Freelancer.",
                       2000, // Waits 1s
-                      "Hemde cok",
+                      "I'm a Developer.",
                       2000, // Waits 1s
-                      `Suanda ${dynamicValue}%`,
-                      2000,
-                      "Yakinda daha da artacak",
-
+                      "I'm a Designer.",
                       () => {
                         console.log("Done typing!"); // Place optional callbacks anywhere in the array
                       },
