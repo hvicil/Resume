@@ -1,6 +1,8 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import { calculateDynamicValue } from "../utils/utils";
 const Intro = () => {
+  const dynamicValue = calculateDynamicValue();
   return (
     <section id="home">
       <div className="hero-wrap">
@@ -14,22 +16,25 @@ const Intro = () => {
             <div className="row">
               <div className="col-12 text-center">
                 <div className="typed-strings">
-                  <p>I'm Hüseyin Vicil</p>
-                  <p>I'm a Freelancer.</p>
-                  <p>I'm a Developer.</p>
-                  <p>I'm a Designer.</p>
+                  <p>Canim Karicim</p>
+                  <p>Seni Cok Seviyorum</p>
+                  <p>Sakin ne kadar diye sorma</p>
+                  <p>Sorarsan söyleyemem</p>
                 </div>
                 <p className="text-7 fw-500 text-white mb-2 mb-md-3">Welcome</p>
                 <h1 className="text-white text-18">
                   <TypeAnimation
                     sequence={[
-                      "I'm Hüseyin Vicil",
+                      "Canim Karicim",
                       2000, // Waits 1s
-                      "I'm a Freelancer.",
+                      "Seni Cok Seviyorum",
                       2000, // Waits 1s
-                      "I'm a Developer.",
+                      "Hemde cok",
                       2000, // Waits 1s
-                      "I'm a Designer.",
+                      `Suanda ${dynamicValue}%`,
+                      2000,
+                      "Yakinda daha da artacak",
+
                       () => {
                         console.log("Done typing!"); // Place optional callbacks anywhere in the array
                       },
