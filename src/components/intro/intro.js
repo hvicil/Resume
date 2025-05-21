@@ -16,7 +16,7 @@ const Intro = () => {
             <div className="row">
               <div className="col-12 text-center">
                 <div className="typed-strings">
-                  <p>I'm Hüseyin Vicil</p>
+                  <p>I'm Hüseyin</p>
                   <p>I'm a Freelancer.</p>
                   <p>I'm a Developer.</p>
                   <p>I'm a Designer.</p>
@@ -25,7 +25,7 @@ const Intro = () => {
                 <h1 className="text-white text-18">
                   <TypeAnimation
                     sequence={[
-                      "I'm Hüseyin Vicil",
+                      "I'm Hüseyin",
                       2000, // Waits 1s
                       "I'm a Freelancer.",
                       2000, // Waits 1s
