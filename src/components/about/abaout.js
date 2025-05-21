@@ -11,7 +11,7 @@ const About = () => {
         <div className="row gy-5">
           <div className="col-lg-7 col-xl-8 text-center text-lg-start">
             <h2 className="text-7 fw-600 mb-3">
-              I'm <span className="text-primary">Hüseyin Vicil,</span> a Web
+              I'm <span className="text-primary">Hüseyin,</span> a Web
               Developer
             </h2>
             <p>
