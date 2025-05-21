@@ -12,7 +12,7 @@ const Logo = () => {
         />
       </span>
       <h1 className="text-5 text-white text-center mb-0 d-lg-block">
-        HV Infa GmbH
+        HV
       </h1>
       <p className="text-1 text-white text-center mb-0 d-lg-block">
         Adresse:
